@@ -1,0 +1,430 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:500&display=swap);
+body {
+  /* position: relative; */
+  /* left: 0;
+  margin: 0;
+  padding: 0; */
+
+  
+  font-family: "Roboto", sans-serif;
+  
+}
+.body{
+  position: absolute;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  
+}
+.table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ 
+}
+
+.container1 {
+  position: relative;
+  width: 600px;
+  margin: 30px 0;
+  height: 320px;
+  background-image: linear-gradient(#44eaaa, #5a7909, #056784);
+  top: 40%;
+  margin-top: -160px;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container1 .box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  max-width: 660px;
+}
+.container1 .box:before, .container1 .box:after {
+  content: " ";
+  position: absolute;
+  left: 152px;
+  top: 50px;
+  max-width: 660px;
+  background-image: linear-gradient(to left,#44eaaa, #5a7909, #056784);
+  transform: rotateX(52deg) rotateY(15deg) rotateZ(-38deg);
+  width: 300px;
+  height: 285px;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container1 .box:after {
+  background-image: linear-gradient(to right,#44eaaa, #5a7909, #056784);  
+  top: -10px;
+  left: 80px;
+  width: 320px;
+  height: 180px;
+  max-width: 660px;
+}
+.container1 .container1-forms {
+  position: relative;
+}
+.container1 .btn {
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  width: 60px;
+  color: white;
+  background-color: #056784;
+  opacity: 1;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container1 .btn:hover {
+  opacity: 0.7;
+}
+.container1 .btn, .container1 input {
+  padding: 10px 15px;
+}
+.container1 input {
+  margin: 0 auto 15px;
+  display: block;
+  width: 220px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.container1 .container1-forms .container1-info {
+  text-align: left;
+  font-size: 0;
+}
+.container1 .container1-forms .container1-info .info-item {
+  text-align: center;
+  font-size: 16px;
+  width: 300px;
+  height: 320px;
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  opacity: 1;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.container1 .container1-forms .container1-info .info-item p {
+  font-size: 20px;
+  margin: 20px;
+}
+.container1 .container1-forms .container1-info .info-item .btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.container1 .container1-forms .container1-info .info-item .table-cell {
+  padding-right: 35px;
+}
+.container1 .container1-forms .container1-info .info-item:nth-child(2) .table-cell {
+  padding-left: 35px;
+  padding-right: 0;
+}
+.container1 .container1-form {
+  overflow: hidden;
+  position: absolute;
+  left: 30px;
+  top: -30px;
+  width: 305px;
+  height: 380px;
+  background-image: linear-gradient(#0b6162, #056784);  
+
+  background-color: #056784; 
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container1 .container1-form:before {
+  content: "✔";
+  position: absolute;
+  left: 160px;
+  top: -50px;
+  color: #5356ad;
+  font-size: 130px;
+  opacity: 0;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container1 .container1-form .btn {
+  position: relative;
+  background-color: #098c8e;
+  margin-left: auto;
+  margin-bottom: auto;
+  display: flex;
+}
+.btn:hover{
+  box-shadow: 0 0 10px 1px #44eaaa;
+}
+.container1 .form-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: white;
+}
+.container1 .form-item.sign-up {
+  position: absolute;
+  left: -100%;
+  opacity: 0;
+}
+.container1.log-in .box:before {
+  position: absolute;
+  left: 180px;
+  top: 62px;
+  height: 265px;
+}
+.container1.log-in .box:after {
+  top: 22px;
+  left: 192px;
+  width: 324px;
+  height: 220px;
+}
+.container1.log-in .container1-form {
+  left: 265px;
+}
+.container1.log-in .container1-form .form-item.sign-up {
+  left: 0;
+  opacity: 1;
+  background-color: white;
+}
+.container1.log-in .container1-form .form-item.log-in {
+  left: -100%;
+  opacity: 0;
+}
+.container1.active {
+  width: 260px;
+  height: 140px;
+  margin-top: -70px;
+}
+.container1.active .container1-form {
+  left: 30px;
+  width: 200px;
+  height: 200px;
+}
+.container1.active .container1-form:before {
+  content: "✔";
+  position: absolute;
+  left: 51px;
+  top: 5px;
+  color: #5356ad;
+  font-size: 130px;
+  opacity: 1;
+}
+.container1.active input, .container1.active .btn, .container1.active .info-item {
+  display: none;
+  opacity: 0;
+  padding: 0px;
+  margin: 0 auto;
+  height: 0;
+}
+.container1.active .form-item {
+  height: 100%;
+}
+.container1.active .container1-forms .container1-info .info-item {
+  height: 0%;
+  opacity: 0;
+}
+.parent{
+  
+  height: 100vh;
+  width: 100vw;
+ display: flex;
+ justify-content: center;
+ 
+ /* align-items: center; */
+ /* background-image: linear-gradient(to right,#44eaaa, #5a7909, #056784); */
+ 
+ 
+ }
+ .child{
+   display: inline-flex;
+   /* align-items: center; */
+   background-color: white;
+   height: 20rem;
+   width: 40rem;
+   border-radius: 40px;
+   /* justify-content: center; */
+   /* display: inline-flex; */
+   /* align-items: center; */
+  
+ 
+ }
+
+ 
+ .center {
+  padding-left: 200px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 2000px;
+  border: 3px solid #44eaaa;
+}
+.center2 {
+  /* padding-RIGHT: 400px; */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* width: 200px; */
+  /* background-color: black; */
+  /* background: radial-gradient(circle, #44eaaa 0%,  #056784 75%,#44eaaa 100%); */
+}
+
+.FP{
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.nav-button-disable{
+  color: black;
+}
+
+.transparent{
+  background: transparent;
+  color: white;
+}
+.colorw{
+  color: white;
+
+}
+body{
+ 
+  background-image: url("bg.jpg");
+  background-size: 100%;
+}
+.btn-border{
+  border-radius: 30px;
+}
+
+/* .tbody{
+  border-radius: 200px;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  color: white;
+  
+}
+th{
+  color: white;
+}
+.table-box{ */
+  /* display: inline; */
+/* }
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even) {background-color: #6cd9b1;}
+th {
+  background-color: #2272f2;
+  color: white;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+} */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+
+
+
+table {
+  z-index: 2;
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+}
+th {
+  border-bottom: 1px solid #E2B842;
+  color: #E2B842;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: center;
+  border: #E2B842;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+  border: #E2B842;
+
+}
+.disabled td {
+  color: #4F5F64;
+  border: #E2B842;
+
+}
+
+tbody tr:hover {
+  background: #014055;
+    border: #E2B842;
+
+}
+td,tr,th{
+  border: 2px solid;
+  border-color: hsl(44, 73%, 57%);
+
+
+}
+
+.input{
+  border: #fff;
+}
+.Z{
+  z-index: 1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background: transparent;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+.stationary{
+  position: fixed;
+}
+.btn{
+  width: auto !important;
+}
+.image-min{
+  height: 16vh;
+  width:10vw;
+}
